@@ -1,0 +1,9 @@
+econtent.content_add:
+  # Which route will be called by the link
+  route_name: econtent.add
+  title: 'Add Econtent'
+
+  # Where will the link appear, defined by route name.
+  appears_on:
+    - entity.econtent.collection
+    - entity.econtent.canonical

@@ -1,0 +1,5 @@
+entity.cst.add_form:
+  route_name: 'entity.cst.add_form'
+  title: 'Add cst'
+  appears_on:
+    - entity.cst.collection

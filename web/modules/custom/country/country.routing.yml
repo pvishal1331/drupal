@@ -1,0 +1,8 @@
+country.form:
+    path: '/country'
+    defaults:
+        _form: '\Drupal\country\Form\COUNTRYForm'
+        _title: 'country'
+    requirements: 
+       _permission: 'access content'
+       

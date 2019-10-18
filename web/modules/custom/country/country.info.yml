@@ -1,0 +1,6 @@
+name: country
+description: Allows users to enter country.
+package: country
+type: module
+version: 1.0
+core: 8.x

@@ -1,0 +1,27 @@
+<?php
+// function country_schema(){
+//   $schema['country'] = array(
+//     'description' => 'stores all country information'
+//     'fields' => array(
+//        'id' => array(
+//        'description' => 'the primary identifier for the record',
+//        'type' => 'serial',
+//        'unsigned' => TRUE,
+//        'not null' => TRUE,
+//      ),
+//        'country' => array(
+//        'description' => 'the country records',
+//        'type' => 'serial',
+//        'unsigned' => TRUE,
+//        'not null' => TRUE,
+//      ),
+//         'state' => array(
+//          'description' => 'the state records',
+//          'type' => 'serial',
+//          'unsigned' => TRUE,
+//          'not null' => TRUE,
+//        ),
+//       ),
+//         'primary key' => array('id'),
+//   );
+// }

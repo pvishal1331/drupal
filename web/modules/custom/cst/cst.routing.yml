@@ -1,0 +1,32 @@
+entity.cst.collection:
+  path: '/admin/config/system/cst'
+  defaults:
+    _entity_list: 'cst'
+    _title: 'cst configuration'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cst.add_form:
+  path: '/admin/config/system/cst/add'
+  defaults:
+    _entity_form: 'cst.add'
+    _title: 'Add cst'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cst.edit_form:
+  path: '/admin/config/system/cst/{cst}'
+  defaults:
+    _entity_form: 'cst.edit'
+    _title: 'Edit cst'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cst.delete_form:
+  path: '/admin/config/system/cst/{cst}/delete'
+  defaults:
+    _entity_form: 'cst.delete'
+    _title: 'Delete cst'
+  requirements:
+    _permission: 'administer site configuration'
+    

@@ -1,0 +1,5 @@
+name: cst
+type: module
+description: entity to perform operation
+core: '8.x'
+package: custom

@@ -1,0 +1,5 @@
+name: my module
+type: module
+description: module to change save to comment
+core: '8.x'
+package: custom

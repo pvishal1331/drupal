@@ -1,0 +1,9 @@
+name: Content Entity 
+type: module
+description: 'Provides ContentEntityEcontent entity.'
+package: Econtent modules
+core: 8.x
+dependencies:
+  - options
+  - entity_reference
+  - examples

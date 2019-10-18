@@ -1,0 +1,54 @@
+ entity.econtent.canonical:
+  path: '/econtent/{content_entity_econtent}'
+  defaults:
+  # Calls the view controller, defined in the annotation of the contact entity
+    _entity_view: 'econtent'
+    _title: 'Econtent Content'
+  requirements:
+  # Calls the access controller of the entity, $operation 'view'
+    _entity_access: 'econtent.view'
+
+ entity.econtent.collection:
+  path: '/econtent/list'
+  defaults:
+  # Calls the list controller, defined in the annotation of the contact entity.
+    _entity_list: 'econtent'
+    _title: 'Econtent List'
+  requirements:
+  # Checks for permission directly.
+    _permission: 'administer econtent entity'
+    
+ econtent.add:
+  path: '/econtent/add'
+  defaults:
+  # Calls the form.add controller, defined in the contact entity.
+    _entity_form: econtent.add
+    _title: 'Add econtent'
+  requirements:
+    _entity_create_access: 'econtent'
+    
+  entity.econtent.edit_form:
+  path: '/econtent/{econtent}/edit'
+  defaults:
+  # Calls the form.edit controller, defined in the contact entity.
+    _entity_form: entity.edit
+    _title: 'Edit Econtent'
+  requirements:
+    _entity_access: 'econtent.edit'
+    
+ entity.econtent.delete_form:
+  path: '/econtent/{econtent}/delete'
+  defaults:
+    # Calls the form.delete controller, defined in the contact entity.
+    _entity_form: econtent.delete
+    _title: 'Delete Econtent'
+  requirements:
+    _entity_access: 'econtent.delete'
+
+ econtent.settings:
+  path: 'admin/structure/econtent_settings'
+  defaults:
+    _form: '\Drupal\econtent\Form\EcontentSettingsForm'
+    _title: 'Econtent Settings'
+  requirements:
+    _permission: 'administer contact entity'

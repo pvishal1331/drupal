@@ -1,0 +1,5 @@
+name: product
+type: module
+description: Product entity to perform operation
+core: '8.x'
+package: custom

@@ -1,0 +1,20 @@
+econtent.settings_tab:
+  route_name: econtent.settings
+  title: Settings
+  base_route: econtent.settings
+
+econtent.view:
+  route_name: entity.econtent.canonical
+  base_route: entity.econtent.canonical
+  title: View
+
+econtent.page_edit:
+  route_name: entity.econtent.edit_form
+  base_route: entity.econtent.canonical
+  title: Edit
+
+econtent.delete_confirm:
+  route_name:  entity.econtent.delete_form
+  base_route:  entity.econtent.canonical
+  title: Delete
+  weight: 10

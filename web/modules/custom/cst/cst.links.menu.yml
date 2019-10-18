@@ -1,0 +1,5 @@
+entity.cst.collection:
+  title: 'Cst'
+  parent: system.admin_config_system
+  description: 'Configure example'
+  route_name: entity.cst.collection

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - test_resource
+    - serialization
+    - user
+id: test_resource
+plugin_id: rest_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

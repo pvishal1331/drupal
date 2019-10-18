@@ -1,0 +1,10 @@
+entity.econtent.collection:
+  title: 'Content Entity Example: Econtacts Listing'
+  route_name: entity.econtent.collection
+  description: 'List Econtent'
+  weight: 10
+econtent.admin.structure.settings:
+  title: Econtent Settings
+  description: 'Configure Econtent entity'
+  route_name:  econtent.settings
+  parent: system.admin_structure
